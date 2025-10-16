@@ -32,7 +32,6 @@ public class Article {
 	@Column(name = "updated_at")
 	private LocalDateTime updatedAt;
 
-	// Constructors
 	public Article() {
 	}
 
@@ -44,7 +43,6 @@ public class Article {
 		this.sections = sections;
 	}
 
-	// Getters and Setters
 	public Long getId() {
 		return id;
 	}

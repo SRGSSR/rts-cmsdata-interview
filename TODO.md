@@ -1,31 +1,26 @@
-# Interview
+# TODOs
 
-Welcome to this interview session!
 
-## Prerequisites
+## Task 1
 
-- Java 21
-- Maven
-- Docker and Docker Compose
+Create an endpoint to get all articles. Take into account the additional constraints:
+ * Make the endpoint pageable.
+ * We want to be able to filter by section.
+ * We want to be able to sort by date.
 
-## Quickstart
 
-### Database
+## Task 2
 
-```bash
-cd docker
-docker-compose up -d
-```
+Now we want to have an endpoint for sport articles.
 
-You can connect with password `interview`
-```bash
-docker exec -it interview-postgres psql -U interview -d interview
-``` 
+## Task 3
 
-### Application
+An endpoint for Neuchâtel news.
 
-Run the application with the local profile to connect to the PostgreSQL database:
+## Task 4
 
-```bash
-./mvnw spring-boot:run -Dspring-boot.run.profiles=local
-```
+Review the package `gateway`.
+
+Imagine a colleague created a PR. The US was the following:
+
+"Create a service that retrieves intersting to read articles."

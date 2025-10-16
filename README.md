@@ -4,7 +4,7 @@ Welcome to this interview session!
 
 ## Prerequisites
 
-- Java 21
+- Java 17
 - Maven
 - Docker and Docker Compose
 
@@ -29,3 +29,7 @@ Run the application with the local profile to connect to the PostgreSQL database
 ```bash
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=local
 ```
+
+### Tasks
+
+Read TODO.md to get the tasks. :) 
