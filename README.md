@@ -27,7 +27,7 @@ docker exec -it interview-postgres psql -U interview -d interview
 Run the application with the local profile to connect to the PostgreSQL database:
 
 ```bash
-./mvnw spring-boot:run -Dspring-boot.run.profiles=local
+./mvnw spring-boot:run
 ```
 
 Your application is served:
