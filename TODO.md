@@ -23,4 +23,4 @@ Review the package `gateway`.
 
 Imagine a colleague created a PR. The US was the following:
 
-"Create a service that retrieves intersting to read articles."
+"Create a service that retrieves interesting articles to read."
