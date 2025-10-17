@@ -30,6 +30,10 @@ Run the application with the local profile to connect to the PostgreSQL database
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=local
 ```
 
+Your application is served:
+ * `http://localhost:8080/`
+ * Swagger: `http://localhost:8080/swagger-ui/index.html`
+
 ### Tasks
 
 Read TODO.md to get the tasks. :) 
