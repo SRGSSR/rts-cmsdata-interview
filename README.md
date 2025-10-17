@@ -14,7 +14,7 @@ Welcome to this interview session!
 
 ```bash
 cd docker
-docker-compose up -d
+docker compose up -d
 ```
 
 You can connect with password `interview`
